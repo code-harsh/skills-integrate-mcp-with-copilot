@@ -15,6 +15,13 @@
     <main>
       <section id="activities-container">
         <h3>Available Activities</h3>
+        <div id="activities-filters" class="filters-toolbar">
+          <input type="text" id="filter-name" placeholder="Search by name..." />
+          <select id="filter-category">
+            <option value="">All Categories</option>
+            <!-- Category options will be loaded here -->
+          </select>
+        </div>
         <div id="activities-list">
           <!-- Activities will be loaded here -->
           <p>Loading activities...</p>
